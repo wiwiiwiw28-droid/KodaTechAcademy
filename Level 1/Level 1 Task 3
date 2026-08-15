@@ -1,0 +1,99 @@
+// run `node index.js` in the terminal
+
+// Ini comment satu baris
+/* 
+Secara umum di JavaScript terdapat 8 tipe data resmi, yaitu:
+1. String: Tipe data teks (urutan karakter) yang dibungkus tanda kutip.
+2. Number: Tipe data angka, baik bilangan bulat maupun desimal.
+3. Boolean: Tipe data logika yang hanya bernilai true atau false.
+4. Undefined: Tipe data untuk variabel yang sudah dibuat tapi belum diisi nilai.
+5. Null: Tipe data khusus yang menandakan bahwa nilai tersebut sengaja dikosongkan.
+6. Object: Tipe data kompleks untuk menyimpan kumpulan data terstruktur (termasuk Array).
+7. BigInt: Tipe data untuk menyimpan angka bulat yang ukurannya sangat besar.
+8. Symbol: Tipe data untuk membuat nilai unik yang tidak bisa duplikat.
+*/
+
+// DEKLARASI TIPE DATA (3 CONTOH)
+
+// 1. Tipe data String di JavaScript
+const jenisKelamin = 'Laki-laki';
+const tanggalLahir = '27 Januari 1998';
+const tempatLahir = 'Ciamis';
+
+// 2. Tipe data Number di JavaScript
+const tahunLahir = 1998;
+let noHp = 62895326425520;
+let jumlahAnggotaKeluarga = 5;
+
+// 3. Tipe data Boolean di JavaScript
+const anakPertama = true;
+let sudahMenikah = false;
+let sedangBekerja = true;
+
+// 4. Tipe data Undefined di JavaScript
+let nilaiUjianTerakhir;
+let rencanaLiburan;
+let proyekSelanjutnya;
+
+// 5. "Null" Tipe data yang sengaja dikosongkan nilainya
+const penyakitBawaanKronis = null;
+let mobilPribadi = null;
+let namaPasangan = null;
+
+// 6. "Object" Tipe data kompleks (Termasuk Object Biasa dan Array)
+const spesifikasiLaptop = { merek: 'HP', ramGB: 8 };
+let profil = {
+  nama: 'Farrizzan',
+  umur: 28,
+  alamat: 'Jl. Sagu No. 155 Jagakarsa, Jakarta Selatan',
+};
+const daftarWarnaPelangi = [
+  'Merah',
+  'Jingga',
+  'Kuning',
+  'Hijau',
+  'Biru',
+  'Nila',
+  'Ungu',
+];
+
+// 7. "BigInt" Tipe data angka raksasa (Wajib diakhiri huruf 'n')
+const kecepatanCahayaKmPerHari = 25902068371n;
+const massaBumiKg = 5972000000000000000000000n;
+let jarakBumiKeBulanMm = 384400000000000000n;
+
+// 8. "Symbol" Tipe data identitas unik pengenal
+const password = Symbol('rahasia');
+let sessionIDUser = Symbol('session_1');
+let requestIDTerbaru = Symbol('req_001');
+
+console.log(
+  profil,
+  ' lahir pada tanggal ' + tanggalLahir + ' di ' + tempatLahir
+);
+
+// Hasil Operasi Matematika
+
+const angkaPertama = 12500;
+const angkaKedua = 2500;
+let hasil;
+
+console.log('Diketahui :');
+console.log(angkaPertama);
+console.log(angkaKedua);
+
+// 1. Operasi Penjumlahan
+hasil = angkaPertama + angkaKedua;
+console.log('Hasil dari ' + angkaPertama + ' + ' + angkaKedua + ' = ' + hasil);
+
+// 2. Operasi Pengurangan
+hasil = angkaPertama - angkaKedua;
+console.log('Hasil dari ' + angkaPertama + ' - ' + angkaKedua + ' = ' + hasil);
+
+// 3. Operasi Pembagian
+hasil = angkaPertama / angkaKedua;
+console.log('Hasil dari ' + angkaPertama + ' : ' + angkaKedua + ' = ' + hasil);
+
+// 4. Operasi Perkalian
+hasil = angkaPertama * angkaKedua;
+console.log('Hasil dari ' + angkaPertama + ' x ' + angkaKedua + ' = ' + hasil);
