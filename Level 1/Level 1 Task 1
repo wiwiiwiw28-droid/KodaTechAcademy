@@ -1,0 +1,32 @@
+// run `node index.js` in the terminal
+
+// 1. "Nama" Tipe data String (Teks)
+console.log('Farrizzan Muhammad Ramadhan');
+// 2. "Umur" Tipe data Integer / Number
+console.log(28);
+// 3. "Alamat" Tipe data String
+console.log('Jl. Sagu No. 155 Jagakarsa, Jakarta Selatan');
+// 4. "Hobi" Tipe data String
+console.log('Bermain Game dan Mendengarkan Lagu');
+// 5. "Asal Sekolah dan Jurusan" Tipe data String (Teks)
+console.log('MAS Soebono Mantofani - IPA');
+// 6. "Alasan Tertarik Programming" Tipe data String
+console.log(
+  'Perkembangan Teknologi belakangan ini sedang berkembang dengan cepat, hampir semua industri membutuhkan teknologi dan dengan coding saya memiliki kebebasan untuk membuat apapun.'
+);
+// 7. "Hal yang Sudah Dipelajari" Tipe data String
+console.log(
+  'Jika dalam proses programming langsung, saya belum pernah belajar secara khusus, hanya saja dalam programming yang saya tahu, ada HTML atau front end dan ada back end'
+);
+// 8. "Pernah Kesulitan Belajar" Tipe data String
+console.log(
+  'Pernah, karena belum tahu harus belajar mulai darimana dan bagaimana arah belajar yang baik dan benar.'
+);
+// 9. "Alasan Mengikuti Bootcamp" Tipe data String
+console.log(
+  'Ingin belajar lebih terstruktur, intensif, dan mendapatkan bimbingan langsung dari mentor berpengalaman.'
+);
+// 10. "Alasan Bootcamp Harus Menerima" Tipe data String
+console.log(
+  'Saya memiliki motivasi belajar yang tinggi, disiplin, dan siap berkomitmen penuh untuk menyelesaikan semua tugas yang diberikan oleh Bootcamp Koda.'
+);
