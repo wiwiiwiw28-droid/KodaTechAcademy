@@ -1,0 +1,28 @@
+// run `node index.js` in the terminal
+
+const nama = "Farrizzan Muhammad Ramadhan";
+const umur = 28;
+const alamat = "Jl. Sagu No. 155 Jagakarsa, Jakarta Selatan";
+const hobi = "Bermain Game dan Mendengarkan Lagu";
+const asalSekolah = "MAS Soebono Mantofani";
+const jurusan = "IPA";
+const alasanSukaProgramming = "Perkembangan Teknologi belakangan ini sedang berkembang dengan cepat, hampir semua industri membutuhkan teknologi dan dengan coding saya memiliki kebebasan untuk membuat apapun.";
+
+
+// CONSOLE.LOG GABUNGAN 
+console.log(
+  "Nama saya adalah " 
+  + nama + 
+  ", asal sekolah/universitas " 
+  + asalSekolah + 
+  " jurusan " 
+  + jurusan + 
+  ". Alasan saya tertarik dengan programming adalah " 
+  + alasanSukaProgramming
+);
+
+
+// PERBEDAAN VAR, LET, DAN CONST 
+console.log(
+  "Perbedaan var, let, dan const adalah isi/nilai pada var dan let masih bisa diubah, hanya saja pada var nama variabel yang sudah digunakan bisa digunakan kembali dan membuat isi/nilai yang sudah disimpan sebelumnya menjadi hilang dan diganti dengan isi/nilai yang baru. hal ini bisa membuat error apabila membuat nama variabel yang sama tapi isi/nilai nya berbeda karena hanya terdeteksi satu isi/nilai saja yang disimpan, pada let nama variabel yang sudah digunakan tidak bisa digunakan lagi untuk menyimpan isi/nilai yang berbeda. Sedangkan pada const isi/nilai tidak bisa diubah, sama seperti pada let, nama variabel yang sudah digunakan tidak bisa digunakan lagi untul menyimpan isi/nilai yang berbeda "
+);
