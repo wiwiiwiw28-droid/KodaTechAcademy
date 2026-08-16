@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Farrizzan Muhammad Ramadhan</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      /* Gaya Tampilan (CSS) */
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container {
+        background-color: #ffffff;
+        max-width: 600px;
+        width: 90%;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        border-top: 5px solid #ff5722; /* Warna Oranye Koda */
+      }
+
+      /* === HEADER: FOTO & TEKS BERJEJER (FLEXBOX) === */
+      .profile-header {
+        display: flex;
+        align-items: center; /* Menyeimbangkan posisi foto & teks di tengah vertikal */
+        gap: 20px; /* Jarak antara foto dan teks */
+        margin-bottom: 25px;
+      }
+
+      /* STYLE FOTO PROFIL */
+      .avatar {
+        width: 90px;
+        height: auto;
+        object-fit: contain;
+        border: 3px solid #f0f0f0; /* Garis tepi tipis */
+      }
+
+      /* STYLE TEKS NAMA & PROFESI */
+      .profile-text h1 {
+        color: #111;
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .profile-text h3 {
+        color: #ff5722;
+        margin: 0;
+      }
+
+      h4 {
+        color: #222;
+        border-bottom: 2px solid #000;
+        padding-bottom: 5px;
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 15px;
+        color: #555;
+        text-align: justify;
+      }
+
+      ul,
+      ol {
+        padding-left: 20px;
+        color: #555;
+      }
+
+      .btn-instagram,
+      .btn-wa {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 20px;
+        margin-right: 30px;
+        color: #444;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 14px;
+        transition: color 0.3s ease;
+      }
+
+      .ig-icon,
+      .wa-icon {
+        width: 18px;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .footer-logo {
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .footer-logo img {
+        max-width: 180px;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Wadah Konten Utama -->
+    <div class="container">
+      <div class="profile-header">
+        <!-- Ganti src dengan file foto Anda atau link URL gambar -->
+        <img src="profilepict.jpg" alt="Foto Farrizzan" class="avatar" />
+
+        <div class="profile-text">
+          <h1>Farrizzan Muhammad Ramadhan</h1>
+          <h3>Driver Online</h3>
+        </div>
+      </div>
+      <!-- Alasan menjadi programmer dengan format strong & em -->
+      <p>
+        Saya ingin menjadi programmer karena dunia teknologi berkembang sangat
+        pesat dan menawarkan ruang kreasi yang tanpa batas. Melalui pemrograman,
+        saya bisa melatih kemampuan <strong>problem solving</strong> secara
+        terstruktur untuk membangun sebuah <em>software</em> atau platform
+        digital yang inovatif serta berdampak luas.
+      </p>
+
+      <p>Alamat: Jl. Sagu No. 155 Jagakarsa, Jakarta Selatan</p>
+
+      <!-- Bagian Riwayat Sekolah -->
+      <div>
+        <h4>Sekolah:</h4>
+        <ol>
+          <li>SDN Soklat Subang</li>
+          <li>SMPN 1 Cibogo Subang</li>
+          <li>MAS Soebono Mantofani</li>
+        </ol>
+      </div>
+
+      <!-- Bagian Hobi -->
+      <div>
+        <h4>Hobi:</h4>
+        <ul>
+          <li>Bermain Game</li>
+          <li>Mendengarkan Lagu</li>
+          <li>Menonton Film</li>
+        </ul>
+      </div>
+
+      <!-- Tautan Sosial Media -->
+      <a
+        href="https://www.instagram.com/farizzan_mr/"
+        class="btn-instagram"
+        target="_blank"
+      >
+        <img src="logoInstagram.png" alt="logo instagram" class="ig-icon" />
+        Instagram</a
+      >
+      <a href="https://wa.me/6281291589790" class="btn-wa" target="_blank">
+        <img src="logoWa.jpeg" alt="logo whatsapp" class="wa-icon" />
+        Whatsapp</a
+      >
+    </div>
+
+    <!-- Bagian Logo Koda di Luar Kotak Utama -->
+    <div class="footer-logo">
+      <a href="https://www.kodacademy.id/" target="_blank">
+        <img src="logoKoda.png" alt="Logo Koda Tech Academy" />
+      </a>
+    </div>
+  </body>
+</html>
