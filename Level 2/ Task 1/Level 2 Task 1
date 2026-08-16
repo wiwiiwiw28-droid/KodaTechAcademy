@@ -9,8 +9,6 @@
       body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: #f9f9f9;
-        color: #333;
-        line-height: 1.6;
         margin: 0;
         padding: 40px 0px;
         display: flex;
@@ -26,22 +24,6 @@
         border-radius: 12px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         border-top: 5px solid #ff5722; /* Warna Oranye Koda */
-      }
-
-      /* === HEADER: FOTO & TEKS BERJEJER (FLEXBOX) === */
-      .profile-header {
-        display: flex;
-        align-items: center; /* Menyeimbangkan posisi foto & teks di tengah vertikal */
-        gap: 20px; /* Jarak antara foto dan teks */
-        margin-bottom: 25px;
-      }
-
-      /* STYLE FOTO PROFIL */
-      .avatar {
-        width: 90px;
-        height: auto;
-        object-fit: contain;
-        border: 3px solid #f0f0f0; /* Garis tepi tipis */
       }
 
       /* STYLE TEKS NAMA & PROFESI */
@@ -77,23 +59,21 @@
 
       .btn-instagram,
       .btn-wa {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
         margin-top: 20px;
         margin-right: 30px;
         color: #444;
         text-decoration: underline;
         font-weight: bold;
         font-size: 14px;
-        transition: color 0.3s ease;
+        transition: color 0.5s ease;
       }
 
-      .ig-icon,
-      .wa-icon {
-        width: 18px;
-        height: auto;
-        object-fit: contain;
+      .btn-instagram:hover {
+        color: #e1306c;
+      }
+
+      .btn-wa:hover {
+        color: #25d366;
       }
 
       .footer-logo {
@@ -112,16 +92,11 @@
   <body>
     <!-- Wadah Konten Utama -->
     <div class="container">
-      <div class="profile-header">
-        <!-- Ganti src dengan file foto Anda atau link URL gambar -->
-        <img src="profilepict.jpg" alt="Foto Farrizzan" class="avatar" />
-
-        <div class="profile-text">
-          <h1>Farrizzan Muhammad Ramadhan</h1>
-          <h3>Driver Online</h3>
-        </div>
+      <div class="profile-text">
+        <h1>Farrizzan Muhammad Ramadhan</h1>
+        <h3>Driver Online</h3>
       </div>
-      <!-- Alasan menjadi programmer dengan format strong & em -->
+      <!-- Alasan menjadi programmer  -->
       <p>
         Saya ingin menjadi programmer karena dunia teknologi berkembang sangat
         pesat dan menawarkan ruang kreasi yang tanpa batas. Melalui pemrograman,
@@ -150,6 +125,14 @@
           <li>Mendengarkan Lagu</li>
           <li>Menonton Film</li>
         </ul>
+
+        <blockquote>
+          <p>
+            "Programming isn't about what you know; it's about what you can
+            figure out."
+          </p>
+          <cite>— Chris Pine</cite>
+        </blockquote>
       </div>
 
       <!-- Tautan Sosial Media -->
@@ -158,12 +141,10 @@
         class="btn-instagram"
         target="_blank"
       >
-        <img src="logoInstagram.png" alt="logo instagram" class="ig-icon" />
-        Instagram</a
+        My Instagram</a
       >
       <a href="https://wa.me/6281291589790" class="btn-wa" target="_blank">
-        <img src="logoWa.jpeg" alt="logo whatsapp" class="wa-icon" />
-        Whatsapp</a
+        My Whatsapp</a
       >
     </div>
 
