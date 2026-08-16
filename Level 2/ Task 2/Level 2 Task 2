@@ -1,65 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Farrizzan Muhammad Ramadhan - Task 2</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farrizzan Muhammad Ramadhan</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- MENGHUBUNGKAN KE FILE EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="jawaban.css" />
+
+    <style>
+      /* INTERNAL CSS */
+
+      /* Syarat h1: posisi berada di tengah halaman */
+      .profile-text h1 {
+        text-align: center;
+      }
+
+      /* Gaya dasar halaman bawaan dari Task 1 */
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container {
+        background-color: #ffffff;
+        max-width: 600px;
+        width: 90%;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        border-top: 5px solid #ff5722;
+      }
+
+      .profile-text h3 {
+        color: #ff5722;
+        margin: 0;
+      }
+
+      h4 {
+        color: #222;
+        border-bottom: 2px solid #000;
+        padding-bottom: 5px;
+        font-size: 18px;
+      }
+
+      ul,
+      ol {
+        padding-left: 20px;
+        color: #555;
+      }
+
+      /* Penerapan Flexbox pada bungkus tombol agar responsif */
+      .social-buttons-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 25px;
+      }
+
+      .btn-instagram,
+      .btn-wa {
+        margin-top: 20px;
+        margin-right: 30px;
+        color: #444;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 14px;
+        transition: color 0.5s ease;
+      }
+
+      .btn-instagram:hover {
+        color: #e1306c;
+      }
+      .btn-wa:hover {
+        color: #25d366;
+      }
+
+      .footer-logo {
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <div class="wrapper">
-      <!-- BARIS ATAS: Teks Koda & Logo Kanan Atas -->
-      <header class="top-bar">
-        <div class="brand-title">Koda</div>
-        <!-- Logo Koda di kanan atas -->
-        <img
-          src="https://github.com/wiwiiwiw28-droid/KodaTechAcademy/blob/c02813624818ac2e537eb0c77073e24bc5067cc8/Level%202/%20Task%202/logoKoda2.png?raw=true"
-          alt="Logo Koda"
-          class="top-right-img"
-        />
-      </header>
-
-      <div class="header-section">
-        <p class="intro-text">
-          Koda adalah program pelatihan yang berkomitmen untuk mencetak
-          developer yang profesional dan memberikan kesempatan untuk berkarir di
-          perusahaan ternama.
-        </p>
+    <div class="container">
+      <div class="profile-text">
+        <!-- INLINE CSS: Menerapkan warna biru pada tulisan h1 -->
+        <h1 style="color: blue">Farrizzan Muhammad Ramadhan</h1>
+        <h3>Driver Online</h3>
       </div>
 
-      <!-- GARIS PEMBATAS PUTIH TRANSPARAN -->
-      <hr class="divider" />
+      <!-- Paragraf alasan (Styling dipindah ke External CSS: style.css) -->
+      <p class="reason-text">
+        Saya ingin menjadi programmer karena dunia teknologi berkembang sangat
+        pesat dan menawarkan ruang kreasi yang tanpa batas. Melalui pemrograman,
+        saya bisa melatih kemampuan <strong>problem solving</strong> secara
+        terstruktur untuk membangun sebuah <em>software</em> atau platform
+        digital yang inovatif serta berdampak luas.
+      </p>
 
-      <!-- KOTAK PUTIH 1: Keunggulan Bootcamp -->
-      <div class="info-card">
-        <h2 class="card-title">Keunggulan Bootcamp Koda</h2>
-        <ol class="numbered-list">
-          <li>Kurikulum yang mendukung.</li>
-          <li>Disalurkan kerja.</li>
-          <li>Income sharing agreement.</li>
+      <!-- INLINE CSS: Menerapkan background-color yellow pada alamat -->
+      <p style="background-color: yellow">
+        Alamat: Jl. Sagu No. 155 Jagakarsa, Jakarta Selatan
+      </p>
+
+      <!-- Bagian Riwayat Sekolah (Styling h3 dipindah ke External CSS: style.css) -->
+      <div>
+        <h4 class="school-title">Sekolah:</h4>
+        <ol>
+          <li>SDN Soklat Subang</li>
+          <li>SMPN 1 Cibogo Subang</li>
+          <li>MAS Soebono Mantofani</li>
         </ol>
       </div>
 
-      <!-- KOTAK PUTIH 2: Detail Keunggulan -->
-      <div class="info-card no-margin-bottom">
-        <h2 class="card-title2">
-          Di Koda kami percaya ada cara yang lebih baik untuk sukses
-        </h2>
+      <!-- Bagian Hobi -->
+      <div>
+        <h4>Hobi:</h4>
         <ul>
-          <li>
-            Menggunakan skema Income Share Agreement (ISA) sehingga tidak ada
-            biaya pendidikan di depan.
-          </li>
-          <li>Memberikan skill yang dibutuhkan sesuai standar industri.</li>
-          <li>Menyalurkan lulusan Koda ke perusahaan rekanan Koda.</li>
+          <li>Bermain Game</li>
+          <li>Mendengarkan Lagu</li>
+          <li>Menonton Film</li>
         </ul>
+
+        <blockquote>
+          <p>
+            "Programming isn't about what you know; it's about what you can
+            figure out."
+          </p>
+          <cite>— Chris Pine</cite>
+        </blockquote>
+      </div>
+      <div class="social-buttons-container">
+        <a
+          href="https://www.instagram.com/farizzan_mr/"
+          class="btn-instagram"
+          target="_blank"
+          >My Instagram</a
+        >
+        <a href="https://wa.me/6281291589790" class="btn-wa" target="_blank"
+          >My Whatsapp</a
+        >
       </div>
 
-      <!-- TOMBOL DAFTAR SEKARANG -->
-      <a href="#" class="btn-register">Daftar Sekarang</a>
+      <!-- BONUS SOAL NOMOR 8: Tag p konfirmasi penyerahan materi -->
+      <p style="color: #888; font-size: 12px; margin-top: 20px">
+        sudah menerapkan Flexbox dan Media Queries
+      </p>
+    </div>
 
-      <!-- FOOTER COPYRIGHT -->
-      <footer class="footer-text">Copyright Koda 2022</footer>
+    <div class="footer-logo">
+      <a href="https://www.kodacademy.id/" target="_blank">
+        <!-- INTERNAL / EXTERNAL CSS: img diatur ukurannya lewat CSS -->
+        <img src="logoKoda.png" alt="Logo Koda Tech Academy" class="logo-img" />
+      </a>
     </div>
   </body>
 </html>
