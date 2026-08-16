@@ -27,7 +27,7 @@
         </p>
       </div>
 
-      <!-- GARIS PEMBATAS PUTIH TRANSPARAN (Sesuai Figma) -->
+      <!-- GARIS PEMBATAS PUTIH TRANSPARAN -->
       <hr class="divider" />
 
       <!-- KOTAK PUTIH 1: Keunggulan Bootcamp -->
@@ -58,7 +58,7 @@
       <!-- TOMBOL DAFTAR SEKARANG -->
       <a href="#" class="btn-register">Daftar Sekarang</a>
 
-      <!-- FOOTER COPYRIGHT (Warna putih di tengah) -->
+      <!-- FOOTER COPYRIGHT -->
       <footer class="footer-text">Copyright Koda 2022</footer>
     </div>
   </body>
