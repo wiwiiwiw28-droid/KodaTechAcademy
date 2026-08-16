@@ -1,0 +1,58 @@
+/* ==========================================================================
+   SOAL 2: JELASKAN BAGIAN SYNTAX DARI CSS (SELECTOR, DLL)
+   ==========================================================================
+    Sintaks CSS adalah aturan penulisan kode untuk menghias elemen dokumen web. Syntax CSS terdiri dari tiga komponen utama: Selector, Property, dan Value.
+   - Selector: Elemen HTML yang ingin dibidik atau diberi gaya (contoh: h1, p, .container).
+   - Property: Aturan atau jenis gaya yang ingin diubah dari elemen tersebut (contoh: color, font-size).
+   - Value: Nilai konkrit atau ketetapan yang diberikan kepada properti tersebut (contoh: blue, 16px).
+   Strukturnya ditulis: Selector { Property: Value; }
+   ========================================================================== */
+
+/* ==========================================================================
+   SOAL 3: APA YANG DIMAKSUD DASA CSS SPECIFICITY?
+   ==========================================================================
+   JAWABAN:
+   CSS Specificity adalah sistem pembobotan atau aturan hierarki yang digunakan browser untuk 
+   menentukan aturan CSS mana yang paling kuat dan harus diterapkan jika ada dua atau lebih 
+   aturan yang bertabrakan pada satu elemen yang sama. Urutan kekuatannya dari yang paling 
+   tinggi ke rendah adalah: !important > Inline CSS > ID Selector > Class/Attribute Selector > Type/Tag Selector.
+   ========================================================================== */
+
+/* ==========================================================================
+   SOAL 4: APA YANG DIMAKSUD DENGAN RESPONSIVE WEBSITE?
+   ==========================================================================
+   JAWABAN:
+   Responsive Website adalah situs yang memiliki fleksibilitas layout yang tinggi, website dapat 
+   beradaptasi, berubah ukuran, dan menyesuaikan tata letaknya secara otomatis mengikuti dimensi 
+   layar perangkat yang digunakan oleh pengunjung, baik saat dibuka di PC desktop, tablet, maupun smartphone.
+   ========================================================================== */
+
+/* ==========================================================================
+   SOAL 5: APA YANG DIMAKSUD CSS MEDIA QUERIES?
+   ==========================================================================
+   JAWABAN:
+   Media Queries adalah formula CSS untuk menciptakan website yang responsif. Cara kerjanya seperti 
+   kondisional "if" pada pemrograman, contohnya: "Jika lebar layar monitor di bawah 768px, maka 
+   ubah susunan kolom menu yang tadinya berjejer horizontal ke samping menjadi vertikal ke bawah".
+   ========================================================================== */
+
+/* ==========================================================================
+   SOAL 6: APA YANG DIMAKSUD CSS FLEXBOX DAN GRID? JELASKAN PERBEDAANNYA!
+   ==========================================================================
+   JAWABAN:
+   CSS Flexbox dan Grid adalah sistem tata letak (layouting) modern di dalam CSS.
+   Perbedaan Utamanya:
+   - Flexbox (Flexible Box) bersifat satu dimensi (1D), artinya hanya fokus menata susunan elemen 
+     secara searah saja (baris saja secara horizontal, ATAU kolom saja secara vertikal). Cocok untuk komponen kecil.
+   - CSS Grid bersifat dua dimensi (2D), artinya mampu mengontrol susunan kolom (horizontal) dan 
+     baris (vertikal) secara bersamaan membentuk tabel matriks. Sangat cocok untuk struktur layout halaman besar.
+   ========================================================================== */
+
+/* ==========================================================================
+   SOAL 7: APA YANG DIMAKSUD DENGAN BOOTSTRAP?
+   ==========================================================================
+   JAWABAN:
+   Bootstrap adalah pustaka template desain CSS siap pakai. Di dalamnya sudah disediakan ratusan komponen 
+   matang seperti sistem grid layout, tombol kontak, form input, navigasi bar, sehingga developer tidak perlu menulis 
+   kode styling dasar lagi dari nol menggunakan CSS manual.
+   ========================================================================== */
