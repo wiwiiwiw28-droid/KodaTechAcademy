@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koda Tech Academy - Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Bagian Atas Halaman -->
+      <div class="header-section">
+        <header class="top-bar">
+          <div class="brand-title">Koda</div>
+        </header>
+        <p class="intro-text">
+          Koda adalah program pelatihan yang berorientasi untuk mendidik
+          developer yang profesional dan membantu menempatkannya bekerja di
+          perusahaan terkemuka.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h2 class="card-title">Keunggulan Belajar di Koda</h2>
+        <ol class="numbered-list">
+          <li>Kurikulum yang mendukung.</li>
+          <li>Instruktur yang berpengalaman.</li>
+          <li>Income sharing agreement.</li>
+        </ol>
+      </div>
+
+      <div class="info-card">
+        <h2 class="card-title2">
+          Di Koda kami percaya ada cara yang lebih baik untuk sukses
+        </h2>
+        <ul class="numbered-list2">
+          <li>Kurikulum yang mendukung.</li>
+          <li>Instruktur yang berpengalaman.</li>
+          <li>Income sharing agreement.</li>
+        </ul>
+      </div>
+
+      <a href="#" class="btn-register">Daftar Sekarang</a>
+
+      <!-- Bagian Hak Cipta -->
+      <div class="footer-text">Copyright © Koda Tech Academy</div>
+    </div>
+  </body>
+</html>
